@@ -6,7 +6,12 @@ function Home() {
         <div>
             <h2>Home</h2>
             <Contador />
-            
+        </div>
+        <div>
+            <h2>Sobre</h2>
+                <link href='/sobre'>
+                    <a>Acessar página sobre</a>
+                </link>
         </div>
     )
 }
