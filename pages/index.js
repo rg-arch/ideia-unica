@@ -31,12 +31,6 @@ function Contador() {
 
     )
 
-function RonaldoHome() {
-    <div>
-    <h2>Ronaldo</h2>
-    <p>Texto Ronaldo</p>
-</div>
-}
 
 }
 
