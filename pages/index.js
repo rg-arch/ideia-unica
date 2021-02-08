@@ -1,17 +1,15 @@
 import { useState} from 'react';
-
+import Link  from  'next/Link';
 
 function Home() {
     return (
         <div>
             <h2>Home</h2>
             <Contador />
-        </div>
-        <div>
             <h2>Sobre</h2>
-                <link href='/sobre'>
+                <Link href='/sobre'>
                     <a>Acessar página sobre</a>
-                </link>
+                </Link>
         </div>
     )
 }
@@ -29,7 +27,16 @@ function Contador() {
             <div>{contador}</div>
             <button onClick={adicionarContador}>Adicionar </button>
         </div> 
+
     )
+
+function RonaldoHome() {
+    <div>
+    <h2>Ronaldo</h2>
+    <p>Texto Ronaldo</p>
+</div>
+}
+
 }
 
 

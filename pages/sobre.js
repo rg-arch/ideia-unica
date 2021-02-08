@@ -1,14 +1,22 @@
+import Link  from  'next/Link';
+
 function Home() {
     return (
 
         <div>
-            <h2>Home</h2>
-                <link href='/'>
+            <h2>Sobre</h2>
+                <Link href='/'>
                     <a>Acessar página Home</a>
-                </link>
+                </Link>
         </div>
     )
 }
 
+function RonaldoSobre() {
+    <div>
+    <h2>Ronaldo Sobre</h2>
+    <p>Texto Ronaldo Sobre</p>
+</div>
+}
 
 export default Home
