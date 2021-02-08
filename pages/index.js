@@ -1,6 +1,6 @@
 import { useState} from 'react';
-import Link  from  'next/Link';
-import NextLink from 'next/link';
+import Link  from  'next/link';
+// import NextLink from 'next/link';
 
 function Home() {
     return (
