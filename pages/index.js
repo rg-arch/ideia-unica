@@ -5,7 +5,7 @@ import Link  from  'next/link';
 function Home() {
     return (
         <div>
-            <h2>Home Ronaldo Arthur/h2>
+            <h2>Home Ronaldo Arthur e Gabriel</h2>
             <Contador />
             <h2>Sobre</h2>
                 <Link href='/sobre'>
