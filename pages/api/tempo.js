@@ -6,5 +6,4 @@ function tempo(request, response) {
         info: 'Ronaldo'
       });
 }
-
 export default tempo;
